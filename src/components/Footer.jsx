@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-4 md:gap-12 md:justify-center lg:justify-start  lg:ml-[15rem] items-center p-4">
-        <img src="/logo.png" alt="" className="bg-white p-4" />
+        <img src="/logo.png" alt="" className="bg-white p-4 w-max h-max" />
         <div className="font-normal text-xs w-[20rem] leading-5">
           Your health, physical and emotional well-being is important to us. We
           are always by your side and have made it even easier for you to find

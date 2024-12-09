@@ -101,16 +101,19 @@ export default function Page() {
               Title="Clinically Studied"
               Info="All products that we offer have undergone lab and safety tests"
               src="/clinic.svg"
+              alt="Clinic"
             />
             <IconDisplay
               Title="Vegetarian Friendly"
               Info="We have a wide selection of vegetarian products to meet your needs"
               src="/vegan.svg"
+              alt="Veg friendly"
             />
             <IconDisplay
               Title="Made In India"
               Info="Shop local and explore health products made right here in India"
               src="/india.svg"
+              alt="India"
             />
           </div>
           <div className="md:grid flex flex-col md:grid-cols-3 justify-items-center text-white md:absolute mt-6 md:mt-40 lg:mt-52 gap-4 lg:gap-40">
@@ -118,16 +121,19 @@ export default function Page() {
               Title="Free Shipping"
               Info="We deliver to your door with no shipping costs on your orders"
               src="/cart.svg"
+              alt="Shipping"
             />
             <IconDisplay
               Title="No Risk"
               Info="We ensure that all products are safe and within their use-by date"
               src="/risk.svg"
+              alt="No risk"
             />
             <IconDisplay
               Title="GMO Free"
               Info="Natural, no modified products and derivatives for those who need it"
               src="/gmo.svg"
+              alt="gmo free"
             />
           </div>
         </div>
@@ -199,17 +205,19 @@ export default function Page() {
                 alt={"ginger medicine bottle"}
                 date={"20 APR"}
                 content={"The Covid-19 Epidemic in 2022 Is Back"}
+                size={"h-full w-full"}
                 src2={"/capsules.jpg"}
                 alt2={"capsules"}
                 date2={"20 APR"}
                 content2={"The Covid-19 Epidemic in 2022 Is Back"}
+                size2={"h-full w-full"}
               />
               <ImageDisplay
                 src={"/bottle-sm.jpg"}
                 alt={"ginger medicine bottle"}
                 date={"20 APR"}
                 content={"The Covid-19 Epidemic in 2022 Is Back"}
-                size={"h-[40%]"}
+                size={"h-[40%] w-full"}
                 src2={"/capsules.jpg"}
                 alt2={"capsules"}
                 date2={"20 APR"}
@@ -221,10 +229,12 @@ export default function Page() {
                 alt={"ginger medicine bottle"}
                 date={"20 APR"}
                 content={"The Covid-19 Epidemic in 2022 Is Back"}
+                size={"h-full w-full"}
                 src2={"/capsules.jpg"}
                 alt2={"capsules"}
                 date2={"20 APR"}
                 content2={"The Covid-19 Epidemic in 2022 Is Back"}
+                size2={"h-full w-full"}
               />
               <ImageDisplay
                 src={"/bottle-sm.jpg"}
