@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
-    <div className="font-mono h-lvh relative overflow-x-hidden scroll-smooth">
+    <div className="font-mono h-lvh relative">
       <Navbar />
       {/* Hero section  */}
       <div className="md:h-[130vh] lg:h-[140vh] mx-6 bg-[#E2F5FB] flex flex-col items-center mb-8 md:mb-0">
