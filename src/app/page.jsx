@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
-    <div className="font-mono h-lvh relative scroll-smooth">
+    <div className="font-mono h-lvh relative overflow-x-hidden scroll-smooth">
       <Navbar />
       {/* Hero section  */}
       <div className="md:h-[130vh] lg:h-[140vh] mx-6 bg-[#E2F5FB] flex flex-col items-center mb-8 md:mb-0">
@@ -39,7 +39,7 @@ export default function Page() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row lg:flex-col font-sans gap-4 p-4 lg:w-60 lg:pl-6">
-            <div className="flex flex-row gap-2 lg:gap-6">
+            <div className="flex flex-row gap-6">
               <img
                 src="/vitamins.svg"
                 alt="vitamins"
@@ -85,7 +85,7 @@ export default function Page() {
       </div>
       {/* Elements section */}
       <div className="flex flex-col items-center md:absolute md:top-[95vh] lg:top-[110vh] left-[12vw] mb-8 md:mb-0">
-        <div className="w-[80vw] lg:w-[75vw] bg-[#17414F] rounded-[80px] h-[150vh] md:h-[350px] lg:h-[500px] flex flex-col md:flex-row justify-center font-sans relative">
+        <div className="w-[80vw] lg:w-[75vw] bg-[#17414F] rounded-[80px] h-[1200px] md:h-[350px] lg:h-[500px] flex flex-col md:flex-row justify-center font-sans relative">
           <div className="md:grid flex flex-col md:grid-cols-3 justify-items-center text-white md:absolute md:-top-8 lg:-top-12 gap-4 lg:gap-40">
             <IconDisplay
               Title="Clinically Studied"
