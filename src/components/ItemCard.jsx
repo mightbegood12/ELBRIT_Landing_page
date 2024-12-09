@@ -8,7 +8,7 @@ const ItemCard = ({ src, alt, Title, Content }) => {
           src={src}
           alt={alt}
           loading="lazy"
-          className="object-cover w-full"
+          className="object-cover w-full h-full"
         />
         <div className="absolute top-0 p-4 lg:p-6 flex flex-col justify-between h-full">
           <div className="text-[#003569] lg:text-xl font-semibold">

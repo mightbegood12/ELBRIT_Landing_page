@@ -35,6 +35,8 @@ export default function Page() {
                 width="380"
                 height="380"
                 priority
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOs/fO7HgAHZwL1TIToIAAAAABJRU5ErkJggg=="
+                placeholder="blur"
               />
             </div>
           </div>
@@ -43,7 +45,7 @@ export default function Page() {
               <img
                 src="/vitamins.svg"
                 alt="vitamins"
-                className="h-14 md:h-16"
+                className="h-14 w-14 md:h-16 md:w-16"
               />
               <div>
                 <div className="text-md md:text-xl font-semibold text-[#17414F]">
@@ -55,7 +57,11 @@ export default function Page() {
               </div>
             </div>
             <div className="flex flex-row gap-6">
-              <img src="/weight.svg" alt="weight" className="h-14 md:h-16" />
+              <img
+                src="/weight.svg"
+                alt="weight"
+                className="h-14 w-14 md:h-16 md:w-16"
+              />
               <div>
                 <div className="text-md md:text-xl font-semibold text-[#17414F]">
                   Weight Loss
@@ -66,7 +72,11 @@ export default function Page() {
               </div>
             </div>
             <div className="flex flex-row gap-6">
-              <img src="/foods.svg" alt="foods" className="h-14 md:h-16" />
+              <img
+                src="/foods.svg"
+                alt="foods"
+                className="h-14 w-14 md:h-16 md:w-16"
+              />
               <div>
                 <div className="text-md md:text-xl font-semibold text-[#17414F]">
                   Functional Foods

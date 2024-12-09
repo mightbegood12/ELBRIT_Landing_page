@@ -30,7 +30,7 @@ const Navbar = () => {
         </Link>
       </div>
       <button className="flex md:hidden">
-        <img src="/menu.svg" alt="menu" className="h-12 mr-4" />
+        <img src="/menu.svg" alt="menu" className="h-12 w-12 mr-4" />
       </button>
     </div>
   );

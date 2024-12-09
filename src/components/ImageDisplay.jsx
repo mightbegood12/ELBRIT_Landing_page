@@ -25,7 +25,8 @@ const ImageDisplay = ({
       <img
         src={src}
         alt={alt}
-        className={`object-cover object-top ${size} rounded-xl`}
+        className={`object-cover object-top ${size ? size : ""} rounded-xl`}
+        loading="lazy"
       />
       <div className="relative">
         <div className="absolute md:top-4 -left-4 w-[4rem] md:w-[6rem] text-center rounded-r-full bg-[#003569] text-xs md:text-sm text-white py-2">
@@ -39,7 +40,8 @@ const ImageDisplay = ({
         <img
           src={src2}
           alt={alt2}
-          className={`object-cover object-top ${size2} rounded-xl`}
+          className={`object-cover object-top ${size2 ? size2 : ""} rounded-xl`}
+          loading="lazy"
         />
       </div>
     </div>
