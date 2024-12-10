@@ -8,15 +8,17 @@ import Footer from "@/components/Footer";
 export default function Page() {
   return (
     <div className="font-mono h-lvh relative">
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       {/* Hero section  */}
-      <div className="md:h-[130vh] lg:h-[140vh] mx-6 bg-[#E2F5FB] flex flex-col items-center mb-8 md:mb-0">
+      <div className="md:h-[180vh] lg:h-[140vh] mx-6 bg-[#E2F5FB] flex flex-col items-center mb-8 md:mb-0">
         <div className="font-sans font-bold text-[40px] md:text-nowrap md:text-[80px] lg:text-[124px] text-center pt-12 text-[#003569]">
           Essential Vitamins
         </div>
         <div className="flex flex-col lg:flex-row gap-8 justify-center mb-16 w-full items-center">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-start gap-2 font-sans md:pr-8">
-            <div className="font-normal mt-4 md:mt-0 text-md md:text-xl text-[#727272]">
+            <div className="font-normal mt-4 md:mt-0 text-xl text-[#727272]">
               Online Medical Supplies
             </div>
             <div className="w-56 text-xl md:text-2xl font-medium text-[#17414F]">
@@ -28,7 +30,7 @@ export default function Page() {
           </div>
           <div className="relative flex items-center justify-center">
             <div className="w-[200px] h-[200px] md:w-80 md:h-80 bg-[#FFE9B5] rounded-tl-[80px] rounded-br-[80px]" />
-            <div className="z-10 absolute lg:bottom-10 lg:right-0 w-[200px] h-[200px] lg:w-[350px] lg:h-[380px]">
+            <div className="z-10 absolute bottom-5 lg:bottom-10 md:right-0 w-[230px] h-[230px] md:w-[350px] md:h-[380px]">
               <Image
                 src={"/med_bottle.png"}
                 alt="Medicine bottle"
@@ -40,48 +42,48 @@ export default function Page() {
               />
             </div>
           </div>
-          <div className="flex flex-col md:flex-row lg:flex-col font-sans gap-4 p-4 lg:w-60 lg:pl-6">
-            <div className="flex flex-row gap-6">
+          <div className="flex flex-col md:flex-row lg:flex-col font-sans gap-4 p-4 lg:w-60 lg:pl-8">
+            <div className="flex flex-row gap-3 items-center md:gap-6">
               <img
                 src="/vitamins.svg"
                 alt="vitamins"
                 className="h-14 w-14 md:h-16 md:w-16"
               />
               <div>
-                <div className="text-md md:text-xl font-semibold text-[#17414F]">
+                <div className="text-lg md:text-xl font-semibold text-[#17414F]">
                   Vitamins
                 </div>
-                <div className="text-[10px] md:text-xs md:w-40 font-normal font-mono text-[#727272]">
+                <div className="text-xs md:w-40 max-w-[260px] font-normal font-mono text-[#727272]">
                   Increased Vitamins and minerals in your diet
                 </div>
               </div>
             </div>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-3 items-center md:gap-6">
               <img
                 src="/weight.svg"
                 alt="weight"
                 className="h-14 w-14 md:h-16 md:w-16"
               />
               <div>
-                <div className="text-md md:text-xl font-semibold text-[#17414F]">
+                <div className="text-lg md:text-xl font-semibold text-[#17414F]">
                   Weight Loss
                 </div>
-                <div className="text-[10px] md:text-xs md:w-40 font-normal font-mono text-[#727272]">
+                <div className="text-xs md:w-40 font-normal font-mono text-[#727272]">
                   Find Scientifically proven solutions
                 </div>
               </div>
             </div>
-            <div className="flex flex-row gap-6">
+            <div className="flex flex-row gap-3 items-center md:gap-6">
               <img
                 src="/foods.svg"
                 alt="foods"
                 className="h-14 w-14 md:h-16 md:w-16"
               />
               <div>
-                <div className="text-md md:text-xl font-semibold text-[#17414F]">
+                <div className="text-lg md:text-xl font-semibold text-[#17414F]">
                   Functional Foods
                 </div>
-                <div className="text-[10px] md:text-xs md:w-40 font-normal font-mono text-[#727272]">
+                <div className="text-xs md:w-40 font-normal font-mono text-[#727272]">
                   From protein powers to baby formula
                 </div>
               </div>
@@ -94,9 +96,9 @@ export default function Page() {
         </div>
       </div>
       {/* Elements section */}
-      <div className="flex flex-col items-center md:absolute md:top-[95vh] lg:top-[110vh] left-[12vw] mb-8 md:mb-0">
+      <div className="flex flex-col items-center md:absolute md:top-[140vh] lg:top-[110vh] left-[12vw] mb-8 md:mb-0">
         <div className="w-[80vw] lg:w-[75vw] bg-[#17414F] rounded-[80px] h-[1200px] md:h-[350px] lg:h-[500px] flex flex-col md:flex-row justify-center font-sans relative">
-          <div className="md:grid flex flex-col md:grid-cols-3 justify-items-center text-white md:absolute md:-top-8 lg:-top-12 gap-4 lg:gap-40">
+          <div className="md:grid flex flex-col md:grid-cols-3 justify-items-center text-white md:absolute md:-top-8 lg:-top-12 gap-4 lg:gap-24">
             <IconDisplay
               Title="Clinically Studied"
               Info="All products that we offer have undergone lab and safety tests"
@@ -116,7 +118,7 @@ export default function Page() {
               alt="India"
             />
           </div>
-          <div className="md:grid flex flex-col md:grid-cols-3 justify-items-center text-white md:absolute mt-6 md:mt-40 lg:mt-52 gap-4 lg:gap-40">
+          <div className="md:grid flex flex-col md:grid-cols-3 justify-items-center text-white md:absolute mt-6 md:mt-40 lg:mt-52 gap-4 lg:gap-24">
             <IconDisplay
               Title="Free Shipping"
               Info="We deliver to your door with no shipping costs on your orders"
@@ -199,7 +201,7 @@ export default function Page() {
         </div>
         <div className="flex flex-row gap-4 font-sans mb-12">
           <div className="flex flex-col gap-4">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
               <ImageDisplay
                 src={"/bottle-sm.jpg"}
                 alt={"ginger medicine bottle"}
@@ -252,7 +254,9 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -14,10 +14,10 @@ const ImageDisplay = ({
 }) => {
   return (
     <div className="relative flex flex-col gap-6">
-      <div className="absolute md:top-4 -left-4 w-[4rem] md:w-[6rem] text-center rounded-r-full bg-[#003569] text-xs md:text-sm text-white py-2">
+      <div className="absolute top-4 -left-4 w-[4rem] md:w-[6rem] text-center rounded-r-full bg-[#003569] text-xs md:text-sm text-white py-2">
         {date}
       </div>
-      <div className="absolute top-8 md:top-12 w-full text-center font-semibold text-xs md:text-lg text-white py-2">
+      <div className="absolute top-12 w-full text-center font-semibold text-md md:text-lg text-white py-2">
         <div className="w-[100%] flex  justify-center">
           <div className="flex w-[80%] justify-center ">{content}</div>
         </div>
@@ -29,11 +29,11 @@ const ImageDisplay = ({
         loading="lazy"
       />
       <div className="relative">
-        <div className="absolute md:top-4 -left-4 w-[4rem] md:w-[6rem] text-center rounded-r-full bg-[#003569] text-xs md:text-sm text-white py-2">
+        <div className="absolute top-4 -left-4 w-[4rem] md:w-[6rem] text-center rounded-r-full bg-[#003569] text-xs md:text-sm text-white py-2">
           {date2}
         </div>
-        <div className="absolute top-4 md:top-12 w-full text-center font-semibold text-xs md:text-lg text-white py-2">
-          <div className="w-[100%] flex  justify-center">
+        <div className="absolute top-12 w-full text-center font-semibold text-md md:text-lg text-white py-2">
+          <div className="w-[100%] flex justify-center">
             <div className="flex w-[80%] justify-center">{content2}</div>
           </div>
         </div>

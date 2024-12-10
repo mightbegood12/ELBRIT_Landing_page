@@ -27,6 +27,14 @@ export default function RootLayout({ children }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/icon.png"></link>
+        <meta
+          name="description"
+          content="1. Discover essential vitamins and minerals for optimal health. Explore our range of online medical supplies and scientifically proven solutions for weight loss.
+
+2. Enhance your well-being with essential vitamins and minerals. Shop our online medical supplies for functional foods and effective weight loss solutions.
+
+3. Unlock the benefits of essential vitamins and minerals. Browse our online medical supplies for proven solutions, from protein powders to baby formula."
+        />
         <title>Elbrit Life Sciences</title>
       </head>
       <body>
