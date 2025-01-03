@@ -36,9 +36,7 @@ export default function Page() {
                 alt="Medicine bottle"
                 width="380"
                 height="380"
-                priority
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOs/fO7HgAHZwL1TIToIAAAAABJRU5ErkJggg=="
-                placeholder="blur"
+                priority={true}
               />
             </div>
           </div>
